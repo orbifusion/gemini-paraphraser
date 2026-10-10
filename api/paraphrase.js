@@ -1,5 +1,6 @@
-import dotenv from "dotenv";
-dotenv.config({ path: ".env.local" });
+/* dotenv is needed for localhost testing during development */
+/* import dotenv from "dotenv";
+dotenv.config({ path: ".env.local" }); */
 
 import { GoogleGenAI } from "@google/genai";
 
